@@ -1,0 +1,3 @@
+#ln -s /work/n01/shared/nemo/xios-trunk/bin/xios_server.exe /work/n01/n01/anwise/NEMO/nemo_4.0.4_trd/cfgs/AMM75/EXP00/xios_server.exe
+#ln -s /work/n01/shared/nemo/XIOS2_Cray/bin/xios_server.exe /work/n01/n01/anwise/NEMO/nemo_4.0.4_trd/cfgs/AMM75/EXP00/xios_server.exe
+ln -s /work/n01/shared/nemo/XIOS2_Gnu/bin/xios_server.exe EXP00/xios_server.exe
