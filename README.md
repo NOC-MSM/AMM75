@@ -4,12 +4,10 @@ AMM75 specifically is the same as AMM15 but coarsened to 7.5 km horizontal resol
 ```
 svn -r 15194 co https://forge.ipsl.jussieu.fr/nemo/svn/NEMO/branches/UKMO/NEMO_4.0.4_momentum_trends nemo_4.0.4_trd).
 ```
-The NEMO directiory of this repository includes the AMM15/AMM75 specific source code (SRC), namelists (NAMELISTS), boundary coordinate files, input/output files (XIOS) as well as various High Performance Computing files which are specific to ARCHER2. 
+The NEMO directiory of this repository includes the AMM15/AMM75 specific source code (SRC), namelists (NAMELISTS), boundary coordinate files, input/output files (XIOS) as well as various High Performance Computing files which are specific to ARCHER2. The domain file is available from https://gws-access.jasmin.ac.uk/public/jmmp/AMM7/AMM75/INPUTS/domain_cfg.nc
 
-Domain 
-
-
-
+Forcing datasets are those used to force the AMM15 configuration, specifically:
+The model has been forced using ERA5 for the surface forcing, GloASea6 for the lateral boundaries, FES2014 for the tides and a River climatology [https://gws-access.jasmin.ac.uk/public/jmmp/AMM7/AMM75/RIV/](https://gws-access.jasmin.ac.uk/public/jmmp/AMM7/AMM75/RIV/AMM75_River_Climatology.nc) . Model simulations are initialised using GloSea6 temperature and salinity.
 
 
 Refs.
